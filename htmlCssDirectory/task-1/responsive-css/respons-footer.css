@@ -1,0 +1,220 @@
+@media screen and (max-width: 1400px) {
+    footer{
+        width: 100%;
+    }
+    .main-footer{
+        width: 1180px;
+    }
+ }
+@media screen and (max-width: 1201px) {
+    .main-footer{
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 1025px){
+    .main-footer{
+        width: 95%;
+        min-width: 730px;
+    }
+    .center-item-footer {
+        margin-left: 10px;
+        width: 200px;
+    }
+    .item-footer-right{
+        width: 152px;
+    }
+    .icon-footer{
+        width: 145px;
+    }
+}
+@media screen and (max-width: 769px){
+    footer{
+        height: 360px;
+    }
+    .main-footer{
+        min-width: 696px;
+        height: 280px;
+    }
+    .title-footer{
+        width: 155.28px;
+        height: 36.97px;
+    }
+    .title-footer .title{  
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+    }
+    .footer-text{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+    } 
+    .footer-item-name{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+    }  
+    .footer-dl{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+    }
+    .last-item-footer{
+        width: 221px;
+        height: 76%;
+    }
+    .center-item-footer{
+        width: 120px;
+    }
+    .item-footer-right{
+        width: 145px;
+    }
+    .footer-title{
+        justify-content: space-around;
+    }
+    .last-item-footer-text{
+        width: 219px;
+    }
+    .footer-dl dt{
+        margin-bottom: 6px;
+    }
+}
+@media screen and (max-width: 710px){
+    .main-footer{
+        min-width: 470px;
+    }
+    .title-footer .title{
+        font-size: 13px;
+    }
+    .title-footer .info{
+        font-size: 10px;
+    }
+    .footer-text{
+        font-size: 10px;
+    }
+    .last-item-footer{
+        width: 196px;
+        height: 56%;
+    }
+    .footer-item-name{
+        font-size: 13px;
+
+    }
+    .footer-dl{
+        font-size: 11px;
+    }
+    .center-item-footer{
+        width: 117px;
+        height: 278px;
+    }
+    .icon-footer{
+        width: 124px;
+    }
+    .icon-footer span img {
+        width: 20px;
+        height: 20px;
+    }
+    .item-footer-right{
+        width: 126px;
+    }
+    .title-footer{
+        width: 136.28px;
+    }
+    .footer-title{
+        width: 192px;
+    }
+    .last-item-footer-text{
+        width: 173px;
+        margin-top: 14px;
+    }
+}
+@media screen and (max-width: 490px){
+    .main-footer{
+        width: 318px;
+        min-width: 318px;
+        height: 594px;
+        flex-direction: column;
+        align-items: center ;
+    }
+    footer{
+        height: 630px;
+    }
+    .last-item-footer{
+        width: 318px;
+        align-items: center;
+        margin-top: 0;
+    }
+    
+    .item-footer-right{
+        width: 192px;
+    }
+    .footer-title{
+        width: 318px;
+        height: 48px;
+        justify-content: center;
+        margin-top: 52px;
+    }
+    .title-footer{
+        width: 161.28px;
+    }
+    .title-footer .title{            
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+    }
+    .title-footer .info{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+    }
+    .footer-text{    
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .footer-item-name{   
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .footer-dl{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+    .icon-footer span img {
+        width: 24px;
+        height: 24px;
+    }
+    .icon-footer{
+        width: 192px;
+        height: 24px;
+        margin-bottom: 50px;
+    }
+    .last-item-footer{
+        height: 400px;
+    }
+    .last-item-footer-text{
+        width: 317px;
+        margin-top: 28px;
+    }
+    .center-item-footer{
+        margin-top: 48px;
+    }
+    .footer-dl dt{
+        margin-bottom: 10px;
+    }
+ }

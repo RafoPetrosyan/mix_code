@@ -1,0 +1,121 @@
+
+header{
+    width: 1400px;
+    height: 88px;
+    margin: 0 auto;
+}
+.header-main{
+    width: 1200px;
+    height: 88px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-div{
+    width: 263px;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+}
+.logo-header{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo-img-header{
+   width: 100%;
+   height: 100%;
+}
+.header-title {
+    width: 200px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.first-title{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #343D33;
+}
+
+.last-title{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #333333;
+}
+
+.nav-header{
+    width: 795px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+.nav-header dl{
+    list-style-type: none;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-align: left;
+    cursor: pointer;
+    color: #475F45;
+}
+.nav-header dl dt:hover{
+    color: red;
+}
+.header-btn{
+    height: 46px;
+    width: 169px;
+    top: 0px;
+    padding: 15px, 30px, 15px, 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1px;
+    border: 2px solid #475F45;
+    cursor: pointer;
+    color: #475F45;
+    background-color: white;
+}
+.header-btn:hover{
+    background-color: black;
+    color: white;
+}
+.respons-menu{
+    display: none;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+}
+.respons-menu img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}

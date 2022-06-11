@@ -1,0 +1,109 @@
+.tickets{
+    width: 100%;
+    height: 820px;
+    margin: 0 auto;
+}
+.tickets-main{
+    width: 1200px;
+    height: 820px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.order-tickets-main{
+    width: 528px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.order-title{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    color: #343D33;
+}
+.order-info{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #414840;
+}
+.order-btn{
+    width: 388px;
+    height: 56px;
+}
+.buy-btn{
+    background: #475F45;
+    height: 56px;
+    width: 185px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 20px, 40px, 20px, 40px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    color: white;
+    cursor: pointer;
+}
+.learn-btn{
+    height: 56px;
+    width: 185px;
+    left: 20px;
+    top: 0px;
+    border-radius: 0px;
+    padding: 20px, 40px, 20px, 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.15em;
+    color: #475F45;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 10px;
+}
+.buy-btn:hover{
+    background-color: black;
+    color: white;
+}
+.learn-btn:hover{
+    background-color: black ;
+    color: white;
+}
+.tickets-img{   
+    width: 458.21px;
+    height: 640.19px;
+    border-radius: 500px 500px 0px 0px;
+    margin: 0 auto;
+    background-image: url('../image/Rectangle\ 4.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    outline: 4px solid #343d336e;
+    outline-offset: 3px;
+    margin-right: 0;
+}
+.order-title-response{
+    display: none;
+}

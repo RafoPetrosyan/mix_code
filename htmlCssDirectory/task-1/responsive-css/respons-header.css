@@ -1,0 +1,91 @@
+@media screen and (max-width: 1400px) {
+   header{
+       width: 100%;
+   }
+   .header-main{
+       width: 1180px;
+       justify-content: space-between;
+   }
+}
+@media screen and (max-width: 1201px) {
+    .header-main{
+        width: 1000px;
+    }
+    .header-main{
+        justify-content: space-around;
+    }
+    .nav-header dl, .first-title, .last-title{
+        letter-spacing: unset;
+    }
+    .nav-header{
+        width: 710px;
+    }
+    .header-btn{
+        width: 130px;
+    }
+    .first-title{
+        font-size: 20px;
+    }
+    .last-title{
+        font-size: 13px;
+    }
+    .nav-header dl{
+        font-size: 12px;
+    }
+
+ }
+@media screen and (max-width: 1025px){
+    .header-main{
+        width: 95%;
+        min-width: 730px;
+    }
+    .logo-div{
+        width: 243px;
+    }
+    .header-btn {
+        width: 120px;
+    }
+}
+@media screen and (max-width: 769px) {
+    .header-main{
+        min-width: 696px;
+    }
+    .nav-header{
+        display: none;
+    }
+    .respons-menu{
+        display: inline-block;
+        margin-top: 27px;
+    }
+
+    .header-main{
+        justify-content: space-between;
+    }
+    .logo-header{
+        width: 48px;
+        height: 48px;
+    }
+    .last-title{
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.01em;
+    }
+    .first-title{
+        font-size: 19px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+
+    }
+}
+@media screen and (max-width: 710px) {
+        .header-main{
+            min-width: 470px;
+        }
+ }
+ @media screen and (max-width: 490px){
+    .header-main{
+        width: 318px;
+        min-width: 318px;
+    }
+ }

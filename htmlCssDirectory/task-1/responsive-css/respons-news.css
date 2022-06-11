@@ -1,0 +1,341 @@
+@media screen and (max-width: 1400px) {
+    .news{
+        width: 100%;
+    }
+    .news-main{
+        width: 1180px;
+    }
+ }
+  @media screen and (max-width: 1201px) {
+      .news{
+          height: 735px;
+      }
+    .news-main{
+        width: 1000px;
+        height: 720px;
+    }
+    .plants {
+        width: 450px;
+        height: 518px;
+    }
+    .plants-img{
+        width: 450px;
+        height: 282px;
+    }
+    .pants-info {
+        width: 450px;
+        height: 167px;
+    }
+    .other-plants{
+        width: 500px;
+    }
+    .other-plants-carts{
+        width: 500px;
+        height: 150px;
+    }
+    .carts {
+        width: 203px;
+        height: 131px;
+    }
+    .cart-info {
+        width: 280px;
+        height: 150px;
+    }
+    .plants-info-title{
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 11px;
+    }
+    .plants-info-text{
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 9px;
+    }
+    .info-date{
+        font-size: 15px;
+        line-height: 14px;
+        margin-top: 9px;
+    }
+} 
+ @media screen and (max-width: 1025px) {
+     .news{
+         height: 612px;
+     }
+    .news-main{
+        width: 95%;
+        min-width: 730px;
+        height: 612px;
+    }
+    .news-title{
+        font-size: 40px;
+    }
+    .plants{
+        width: 41%;
+        min-width: 300px;
+        height: 450px;
+    }
+    .plants-img {
+        width: 100%;
+        height: 175px;
+    }
+   .pants-info{
+       width: 100%;
+   }
+   .carts{
+        width: 159px;
+        height: 101px;
+    }
+    .other-plants{
+        width: 54%;
+        height: 450px;
+    }
+    .other-plants-carts {
+        width: 402px;
+        height: 122px;
+    }
+    .plants-info-title{
+        font-size: 16px;
+        line-height: 13px;
+        margin-top: 2px;
+    }
+    .plants-info-text{
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 6px;
+    }
+    .info-date{
+        font-size: 15px;
+        line-height: 13px;
+        margin-top: 6px;
+    }
+    .plants-info-title-margin{
+        margin-top: 20px;
+    }
+    .cart-info {
+        width: 236px;
+        height: 102px;
+    }    
+    .news-posts{
+        width: 301px;
+    }
+}
+@media screen and (max-width: 769px) {
+    .news{
+        height: 1019px;
+    }
+    .news-main{
+        flex-direction: column;
+        justify-content: space-around;
+        min-width: 696px;
+        height: 969px;
+    }
+    .news-title{
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 49.5px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .plants{
+        width: 696px;
+        height: 251px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .plants-img{
+        width: 392px;
+        height: 251px;
+    }
+    .pants-info{
+        width: 271px;
+        height: 240px;
+    }
+    .other-plants{
+        width: 696px;
+    }
+    .plants-info-title{
+        margin-top: 19px;
+    }
+    .cart-info{
+        width: 354px;
+        height: 121px;  
+        margin-left: 20px;
+    }
+    .carts{
+        width: 236px;
+        height: 151px;
+    }
+    .plants-info-title{
+        font-size: 23px;
+        line-height: 25.3px;
+    }
+    .plants-info-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .info-date{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .other-plants-carts{
+        width: 696px;
+        height: 160px;
+        justify-content: flex-start;
+    }
+    .plants-info-title-margin{
+        margin-top: 19px;
+    }
+    
+}
+    
+@media screen and (max-width: 710px) {
+    .news{
+        height: 824px;
+    }
+    .news-main{
+        min-width: 470px;
+        height: 769px;
+    }
+    .plants{
+        width: 100%;
+        height: 171px;
+    }
+    .other-plants{
+        width: 100%;
+        min-width: 470px;
+        height: 400px;
+        margin-top: 40px;
+    }
+    .plants-img {
+        width: 50%;
+        min-width: 250px;
+        height: 171px;
+    }
+    .pants-info{
+        width: 45%;
+        min-width: 206px;
+        height: 171px;
+    }
+    .carts {
+        width: 176px;
+        height: 113px;
+    }
+    .cart-info{
+        width: 299px;
+        height: 131px;
+    }
+    .news-title{
+        font-size: 35px;
+        line-height: 20.5px;
+    }
+    .other-plants-carts{
+        width: 100%;
+        min-width: 470px;
+        height: 131px;
+    }
+    .plants-info-title {
+        font-size: 20px;
+        line-height: 16.3px;
+    }
+    .plants-info-text {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .info-date{
+        font-size: 13px;
+    }
+    .news-posts{
+        width: 261px;
+    }
+
+}
+@media screen and (max-width: 490px){
+    .news{
+        height: 1566px;
+    }
+    .news-main{
+        width: 318px;
+        min-width: 318px;
+        height: 1558px;
+        align-items: center;
+    }
+    .navigate-news::before{
+        margin-left: -51%;
+    }
+    .news-title{    
+        text-align: center;
+        font-size: 34px;
+        line-height: 37.4px;
+    }
+    .navigate-news{
+        font-size: 14px;
+        line-height: 16.41px;
+    }
+    .plants{
+        width: 318px;
+        height: 375px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .plants-img{
+        min-width: 318;
+        width: 318px;
+    }
+    .plants-info-title{
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .plants-info-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .info-date{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .carts{
+        width: 236px;
+        height: 151px;
+    }
+    .other-plants-carts{
+        min-width: 318px;
+        width: 318px;
+        height: 292px;
+        flex-direction: column;
+    }
+    .cart-info{
+        width: 318px;
+        height: 161px;
+        margin: 0;
+    }
+    .pants-info{
+        width: 318px;
+        height: 192px;
+    }
+    .other-plants{
+        min-width: 318px;
+        width: 318px;
+        height: 996px;
+    }
+    .other-plants-carts{
+        min-width: 318px;
+        width: 318px;
+        height: 320px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-header{
+        width: 284px;
+        margin: 20px auto;
+    }
+    
+ }
